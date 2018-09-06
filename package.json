@@ -1,0 +1,27 @@
+{
+  "name": "kanquwen-crawler",
+  "version": "1.0.0",
+  "description": "爬kanquwen.com的数据",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qw110946/kanquwen-crawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qw110946/kanquwen-crawler/issues"
+  },
+  "homepage": "https://github.com/qw110946/kanquwen-crawler#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "superagent": "^3.8.3"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
+  }
+}
